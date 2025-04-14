@@ -13,10 +13,10 @@ Minimalist starter template with Astro and Tailwind CSS pre-configured and ready
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/astro-tailwind-starter.git
+git clone https://github.com/Nemzytch/Astro-Tailwind-Template.git
 
 # Navigate to the project
-cd astro-tailwind-starter
+cd Astro-Tailwind-Template
 
 # Install dependencies
 npm install
