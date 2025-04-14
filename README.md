@@ -46,3 +46,24 @@ Deploy this template to your preferred hosting platform:
 
 - [Astro Documentation](https://docs.astro.build)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+
+## Using as a Template for a New Project
+
+To use this repo as a starter for a new project without pushing to the original repo:
+
+```bash
+# Clone the repo
+git clone https://github.com/Nemzytch/Astro-Tailwind-Template.git new-project
+
+# Navigate to the project
+cd new-project
+
+# Remove link to original repo
+git remote remove origin
+
+# Initialize as a new repo
+git remote add origin https://github.com/yourusername/your-new-project.git
+
+# Push to your new repo
+git push -u origin main
+```
